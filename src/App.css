@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+label {
+  font-weight: bold;
+}
+input {
+  border-radius: 6px;
+  height: 22px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding-left: 7px;
+}
+.quantity {
+  margin: 9px;
+}
+.addbtn {
+  height: 33px;
+  width: 10%;
+  border-radius: 8px;
+  background-color: #d1ff8a;
+  border: none;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.Editbtn {
+  height: 33px;
+  border-radius: 8px;
+  background-color: skyblue;
+  border: none;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 9px;
+}
+.deletebtn {
+  height: 33px;
+  border-radius: 8px;
+  background-color: red;
+  color: white;
+  border: none;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+li {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+
+/* Card styling */
+.card {
+  width: 80%;
+  margin: 0 auto; 
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  border-radius: 8px;
+  background-color: #fff; 
+}
+
+/* ul styling */
+.card ul {
+  list-style-type: none; 
+  padding: 0;
+  margin: 0;
+}
+
+/* li styling */
+.card li {
+  margin-bottom: 10px; 
+  display: flex;
+  justify-content: space-evenly; 
+  align-items: center; 
+  padding: 10px;
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  background-color: #f9f9f9; 
+}
+li span {
+  width: 50%;
+}
+
+.action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
